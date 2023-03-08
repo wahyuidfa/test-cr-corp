@@ -58,6 +58,7 @@ function PokemonListGraphql({ pokemon, pagination }: any) {
                         }
                     </div>
                 </div>
+                  <div className="border bg-slate-600 w-1/4 m-auto text-center text-white" onClick={() => router.push("/")}>Back To Dashboard</div>
             </div>
         </>
     );
