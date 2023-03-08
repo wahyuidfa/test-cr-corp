@@ -14,7 +14,7 @@ const Home = () => {
         <>
             <Head>Pokemon Go</Head>{" "}
             <div className=' w-full p-5 flex  '>
-              <div className="w-40 h-40 shadow-md border m-auto text-center" onClick={()=> router.push("/pokemonEndpoint")}>Pokemon List Menggunakan Endpoit</div>
+              <div className="w-40 h-40 shadow-md border m-auto text-center" onClick={()=> router.push("/pokemonEndpoint")}>Pokemon List Menggunakan Endpoint</div>
               <div className="w-40 h-40 shadow-md border  m-auto text-center"  onClick={()=> router.push("/pokemonGraphql")}>Pokemon List Menggunakan Graphql</div>
             </div>
         </>
